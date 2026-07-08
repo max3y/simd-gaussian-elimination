@@ -1,0 +1,37 @@
+# 编译产物
+bin/
+*.exe
+*.o
+*.out
+
+# perf 输出
+perf_results/
+perf.data
+perf.data.old
+*.svg
+
+# 测试数据 / 临时文件
+gauss.dat
+results.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office 临时文件
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
